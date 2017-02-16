@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsFood.cs" />
+    <Compile Include="clsFoodSupplier.cs" />
     <Compile Include="clsObservationCollection.cs" />
     <Compile Include="clsDataConnection.cs" />
     <Compile Include="clsObservation.cs" />
