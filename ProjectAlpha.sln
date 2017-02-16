@@ -32,6 +32,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CareObs_FrontEnd", "http://
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareObs_BackEnd", "CareObs_BackEnd\CareObs_BackEnd.csproj", "{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBackOffice", "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantBackOffice\RestaurantBackOffice.csproj", "{21071892-EF30-4D4B-94A5-7AE01B5BC195}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RestaurantFrontEnd", "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantFrontEnd\", "{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58765"
+		Debug.AspNetCompiler.PhysicalPath = "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantFrontEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58765\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58765"
+		Release.AspNetCompiler.PhysicalPath = "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantFrontEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58765\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58765"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +76,14 @@ Global
 		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
