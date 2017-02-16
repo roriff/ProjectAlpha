@@ -53,6 +53,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tstFood.cs" />
+    <Compile Include="tstFoodSupplier.cs" />
     <Compile Include="tstObservation.cs" />
     <Compile Include="tstObservationCollection.cs" />
     <Compile Include="tstPatientCollection.cs" />
