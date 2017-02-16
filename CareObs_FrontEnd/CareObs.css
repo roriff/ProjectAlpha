@@ -1,0 +1,133 @@
+﻿/* this css file will define how the elements in the html document will behave....i.e. size, padding, text and colors manipulation */
+
+
+body { /* The whole body of the html files will be as follow */
+      font: 100% arial;
+      background-color:#EDF2FF;
+      width:98%;
+
+    }
+
+
+#wrapper{ /*  this wrapper makes sure that the body content displays itself in a screen output of  min and max , it also makes sure the whole body stays put even when we resize the site*/
+         margin:0 auto;
+         text-align:center;
+         width: 100%;
+         height: 100%;
+         min-width: 1000px;
+         min-height:2000px;
+         overflow:hidden;
+		 }
+
+header { /* Defining the header style in the page ..... html has a header tag now so no need to define it as class */ 
+	    background-color:darkblue;
+        color:white;
+	    height:auto;
+	    width:100%; /* 100 percent width of the parent which is the body here */
+        text-align:center;
+        padding:3px 3px 3px 3px; /* top, bottom, left, right paddings */
+      }
+
+header.globalnav{ /* Defining the header style for the global navigation of the system ..... we call it class globalnav*/
+	   background-color:darkblue;
+       color:white;
+	   height:40px;
+	   width:100%;/* 100 percent width of the parent which is body here */
+       text-align:center;
+      
+      }
+
+nav { /* content for local navigation tag....html5 supports this tag now */  
+    background-color:lightgrey; /* a color can also be written like #EDF2FF */
+    height:300px;
+    width:160px;
+    float:left;
+	border-style:solid;
+	border-color:dodgerblue;
+	border-width:1px;
+	padding:0.1em;
+    }	
+
+
+article {/* Defining the article of the site in the page ..... html has a article tag now so no need to define it as class*/
+          
+    height:3000px; /* if value is auto then it is to give flexibility on how the page height will go if ever it goes beyond 2000px which is the min-heightin the wrappper....*/
+}
+	 
+footer { /* Defining the footer style in the page ..... html has a footer tag now so no need to define it as class*/ 
+	 background-color:lightgrey;
+     color:black;
+     text-align:center;
+     padding:2px;  /* meaning 2px padding for top, bottom, left, right padding*/
+     } 
+
+img.logo { /* Image class for the logo */
+            float:left; 
+		    width:230px; 
+			height:120px;
+	        margin:0px; /* top, bottom, right, left*/	
+           }	  
+
+.buttonNav{
+    position:center;
+}
+
+.buttonGlobal{
+     position:center;
+}
+
+.buttonGlobal:hover{ /* detailing the behaviour when hovering over the content of a global button */
+                 background-color:white;
+				 color:darkblue;
+				 font-weight:bold;
+                 font-size:19px;
+	            } 
+
+.buttonGlobal:active {/* detailing the behaviour when a global button is active*/
+                 background-color:white;
+				 color:darkblue;
+				 font-weight:bold;
+                 font-size:19px;
+                 padding:2px;
+                 border-radius:10em;
+	            }
+
+
+.buttonNav:hover {/* detailing the behaviour when a navigation button is hovered upon*/
+                 background-color:darkblue;
+				 color:white;
+                 font-size:14px;
+				 
+                 }
+
+
+.buttonNav:active {/* detailing the behaviour when a nav button is active*/
+                 background-color:darkblue;
+				 color:white;
+				 font-size:14px;
+                 padding:2px;
+                 border-radius:10em;
+                 }
+
+/* Detailing how writing will be defined in the pages*/
+h1{ text-align:center;
+}
+
+h2{ text-align:center;
+}
+
+h3{ text-align:center;
+}
+
+p{ text-align:center;
+}
+
+/*Detailing how the gridview to display data will defined in the pages*/
+.GridView {
+    background-color: white;
+    border: medium double #004687;
+    }
+.GridViewHover:hover {
+    background-color:#93b1c6;
+    cursor:pointer;
+}

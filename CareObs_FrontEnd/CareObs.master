@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CareObs.master.cs" Inherits="CareObs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Care Observation System</title>
+    <link href="CareObs.css" rel="stylesheet" type="text/css"  media="screen"/>
+    <meta charset="UTF-8"/> <!-- Meta data are there to help the browsers display the data, for search engines optimatzation as well with  keywords and descriptions elements -->
+    <meta name="description" content="Care Observation System"/>
+    <meta name="keywords" content="Care Observation System, De Montfort University, Computing Project"/>
+    <meta name="author" content="Roger Riff"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/> <!-- makes the site width fit to the screen it is open on -->
+    <meta name="viewport" content="height=device-height,initial-scale=1.0"/><!-- makes the site height fit to the screen it is open on -->
+    
+</head>
+
+<body>
+    <form id="wrapper" runat="server">
+
+    <header>
+     <a href="Default.aspx"><img class="logo" src="Images\CareObsLogo.jpg" alt ="CareObs Logo" title="CareObs Logo"/></a>
+     <h1>Welcome to CareObs</h1> <!-- h1 is a block level tag so it will be diplayed with a break after it automatically -->
+     <h3>The Patient Care Observation System</h3>
+    </header>
+
+    <hr />
+    
+    <header class="globalnav">
+      <asp:Label ID="lblUserName" runat="server" style="z-index: 1; left: 16px; top: 168px; position: absolute; height: 27px" Text="User Full Name  | "></asp:Label>
+      <asp:Button class="buttonNav" ID="btnLogOut" runat="server" style="z-index: 1; left: 170px; top: 167px; position: absolute" Text="Log out" OnClick="btnLogOut_Click" />
+      <asp:Button class ="buttonGlobal" ID="btnManagePatient" runat="server" Font-Bold="True" style="z-index: 1; left: 297px; top: 165px; position: absolute; height: 30px; width: 201px;" Text="Manage Patient" OnClick="btnManagePatient_Click"  />
+      <asp:Button class ="buttonGlobal" ID="btnManageObservation" runat="server" Font-Bold="True" style="z-index: 1; left: 542px; top: 165px; position: absolute; height: 30px; width: 201px;" Text="Manage Observation" OnClick="btnManageObservation_Click" />
+      <asp:Button class ="buttonGlobal" ID="btnManageTreatment" runat="server" Font-Bold="True" style="z-index: 1; left: 796px; top: 165px; position: absolute; height: 30px; width: 201px;" Text="Manage Treatment" OnClick="btnManageTreatment_Click" />
+    </header>
+
+    <hr />
+   
+    <article>
+         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder>
+    </article>
+    
+    <hr />
+
+    <footer>
+        Copyright &copy; 2016-2017. All Rights Reserved.<br/>
+        Designed by Roger Riff.
+    </footer>
+
+    </form>
+</body>
+</html>
