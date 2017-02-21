@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{DD1C293C-842F-42F6-A9EC-0E4EA9EA1C1F}"
 EndProject
@@ -32,26 +32,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CareObs_FrontEnd", "http://
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareObs_BackEnd", "CareObs_BackEnd\CareObs_BackEnd.csproj", "{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBackOffice", "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantBackOffice\RestaurantBackOffice.csproj", "{21071892-EF30-4D4B-94A5-7AE01B5BC195}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBackOffice", "RBackOffice\RBackOffice.csproj", "{9646CEEB-E579-4B8A-B756-C2B6346648A9}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RestaurantFrontEnd", "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantFrontEnd\", "{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RFrontEnd", "RFrontEnd\", "{C13D12A0-2523-4CFD-8F6A-4C3E4E190474}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_58765"
-		Debug.AspNetCompiler.PhysicalPath = "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantFrontEnd\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58765\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50203"
+		Debug.AspNetCompiler.PhysicalPath = "RFrontEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50203\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_58765"
-		Release.AspNetCompiler.PhysicalPath = "H:\BSc Computing\Year 3\IMAT3903 - 2017 - Team Development Project\Vijay Modhwadia\Vijay Modhwadia\MyRestaurantSolution\RestaurantFrontEnd\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58765\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50203"
+		Release.AspNetCompiler.PhysicalPath = "RFrontEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50203\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "58765"
+		VWDPort = "50203"
+		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
@@ -76,14 +77,14 @@ Global
 		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21071892-EF30-4D4B-94A5-7AE01B5BC195}.Release|Any CPU.Build.0 = Release|Any CPU
-		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{717BD106-D5E8-4C7A-B3FD-DA7C94F065C7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9646CEEB-E579-4B8A-B756-C2B6346648A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9646CEEB-E579-4B8A-B756-C2B6346648A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9646CEEB-E579-4B8A-B756-C2B6346648A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9646CEEB-E579-4B8A-B756-C2B6346648A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13D12A0-2523-4CFD-8F6A-4C3E4E190474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13D12A0-2523-4CFD-8F6A-4C3E4E190474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13D12A0-2523-4CFD-8F6A-4C3E4E190474}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13D12A0-2523-4CFD-8F6A-4C3E4E190474}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
