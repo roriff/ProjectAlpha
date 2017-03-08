@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{DD1C293C-842F-42F6-A9EC-0E4EA9EA1C1F}"
 EndProject
@@ -29,8 +29,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CareObs_FrontEnd", "http://
 		SlnRelativePath = "CareObs_FrontEnd\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareObs_BackEnd", "CareObs_BackEnd\CareObs_BackEnd.csproj", "{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBackOffice", "RBackOffice\RBackOffice.csproj", "{9646CEEB-E579-4B8A-B756-C2B6346648A9}"
 EndProject
@@ -74,10 +72,6 @@ Global
 		{1C2B2A8E-8C30-4314-90EF-1567B3E1B301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2B2A8E-8C30-4314-90EF-1567B3E1B301}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C2B2A8E-8C30-4314-90EF-1567B3E1B301}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9646CEEB-E579-4B8A-B756-C2B6346648A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9646CEEB-E579-4B8A-B756-C2B6346648A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9646CEEB-E579-4B8A-B756-C2B6346648A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
