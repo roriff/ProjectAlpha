@@ -53,6 +53,16 @@ namespace TestFrameWork
             Assert.AreEqual(AFoodPayment.FoodPaymentCardNumber, SomeFoodPayment);
         }
 
-
+        [TestMethod]
+        public void FoodPaymentCardVerificationCodePropertyOK()
+        {
+            //create an instance of the class we want to create
+            clsFoodPayment AFoodPayment = new clsFoodPayment();
+            //create some test data to assign to the property
+            string SomeFoodPayment = "5151516561356565";
+            AFoodPayment.FoodPaymentCardVerificationCode = SomeFoodPayment;
+            //test to see if the two values are the same
+            Assert.AreEqual(AFoodPayment.FoodPaymentCardVerificationCode, SomeFoodPayment);
+        }
     }
 }
