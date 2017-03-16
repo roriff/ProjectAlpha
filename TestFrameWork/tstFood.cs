@@ -81,7 +81,7 @@ namespace Test_Framework
             Assert.AreEqual(AFood.Quantity, SomeFood);
         }
         [TestMethod]
-        public void ValidMethodOK()
+        public void FoodValidMethodOK()
         {
             //create an instance of the class we want to create
             clsFood AFood = new clsFood();
