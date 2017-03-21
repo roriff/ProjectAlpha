@@ -1047,7 +1047,7 @@ namespace TestFrameWork
             Assert.AreEqual(TestPatient.MobileNo, SomeMobileNo);
         }
 
-        // test MobileeNo for blank string. should return success msg as it is not a required attribute
+        // test MobileNo for blank string. should return success msg as it is not a required attribute
         [TestMethod]
         public void MobileNoMinLessOne()
         {
