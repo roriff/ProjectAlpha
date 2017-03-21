@@ -4,6 +4,7 @@ namespace ClassLibrary
 {
     public class clsFoodPayment
     {
+        public string FoodOrdering { get; set; }
         public string FoodPayment { get; set; }
         public string FoodPaymentAccountNumber { get; set; }
         public string FoodPaymentCardNumber { get; set; }
