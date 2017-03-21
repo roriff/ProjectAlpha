@@ -13,20 +13,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CareObs_FrontEnd", "http://
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		ProjectReferences = "{dd1c293c-842f-42f6-a9ec-0e4ea9ea1c1f}|ClassLibrary.dll;{1ccf07bc-2a0d-4775-9593-0bba5263620b}|TestFrameWork.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58260"
-		Debug.AspNetCompiler.PhysicalPath = "CareObs_FrontEnd\"
+		Debug.AspNetCompiler.PhysicalPath = "H:\Desktop\ProjectAlphaRoger\CareObs_FrontEnd\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58260\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_58260"
-		Release.AspNetCompiler.PhysicalPath = "CareObs_FrontEnd\"
+		Release.AspNetCompiler.PhysicalPath = "H:\Desktop\ProjectAlphaRoger\CareObs_FrontEnd\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58260\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "CareObs_FrontEnd\"
+		SlnRelativePath = "H:\Desktop\ProjectAlphaRoger\CareObs_FrontEnd\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -74,6 +74,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CareObs_BackEnd", "H:\Deskt
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54078"
+		SlnRelativePath = "H:\Desktop\ProjectAlphaRoger\CareObs_BackEnd\"
 	EndProjectSection
 EndProject
 Global
