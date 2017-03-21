@@ -54,12 +54,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RFrontEnd", "RFrontEnd\", "
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppData", "AppData", "{5F7FCA4C-13A6-4E27-949A-4237DE92DF19}"
-	ProjectSection(SolutionItems) = preProject
-		E:\Year 3 Team Development Project\App_Data\Alpha.mdf = E:\Year 3 Team Development Project\App_Data\Alpha.mdf
-		E:\Year 3 Team Development Project\App_Data\Alpha_log.ldf = E:\Year 3 Team Development Project\App_Data\Alpha_log.ldf
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
