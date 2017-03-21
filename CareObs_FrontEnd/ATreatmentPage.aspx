@@ -16,6 +16,7 @@
              <asp:ListItem>Dementia</asp:ListItem>
              <asp:ListItem>Mental Breakdown</asp:ListItem>
              <asp:ListItem>Bipolar Disorder</asp:ListItem>
+             <asp:ListItem>Cerebral Palsy</asp:ListItem>
          </asp:DropDownList>
     
     
@@ -31,14 +32,14 @@
             <asp:ListItem>Not Stated</asp:ListItem>
             <asp:ListItem>Mental</asp:ListItem>
             <asp:ListItem>Physical</asp:ListItem>
-            <asp:ListItem>Both Mental and Physical</asp:ListItem>
+            <asp:ListItem>Mental and Physical</asp:ListItem>
          </asp:DropDownList>
          <asp:Label ID="lblMedicalCondition" runat="server" Font-Bold="True" style="z-index: 1; left: 229px; top: 408px; position: absolute; height: 19px;" Text="Medical Condition"></asp:Label>
          <asp:Label ID="lblMedicationGiven" runat="server" Font-Bold="True" style="z-index: 1; left: 223px; top: 480px; position: absolute; width: 143px" Text="Medication Given"></asp:Label>
-         <asp:TextBox ID="txtMedicationGiven" runat="server" style="z-index: 1; left: 379px; top: 478px; position: absolute; width: 300px"></asp:TextBox>
+         <asp:TextBox ID="txtMedicationGiven" runat="server" style="z-index: 1; left: 383px; top: 478px; position: absolute; width: 300px"></asp:TextBox>
          
          <asp:Label ID="lblComments" runat="server" Font-Bold="True" style="z-index: 1; left: 231px; top: 566px; position: absolute" Text="Comments"></asp:Label>
-         <asp:TextBox ID="txtComments" runat="server" style="z-index: 1; left: 377px; top: 563px; position: absolute; height: 150px; width: 300px" TextMode="MultiLine"></asp:TextBox>
+         <asp:TextBox ID="txtComments" runat="server" style="z-index: 1; left: 384px; top: 564px; position: absolute; height: 150px; width: 300px" TextMode="MultiLine"></asp:TextBox>
     
          <asp:Button class="buttonNav" ID="btnSave" runat="server" OnClick="btnSave_Click" style="z-index: 1; left: 234px; top: 812px; position: absolute; width: 140px" Text="Save" />
          <asp:Button class="buttonNav" ID="btnDoNotSave" runat="server" OnClick="btnDoNotSave_Click" style="z-index: 1; left: 468px; top: 811px; position: absolute; width: 140px" Text="Do Not Save" />
