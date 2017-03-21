@@ -19,7 +19,7 @@
         <asp:Label ID="lblOccupationMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 342px; top: 935px; position: absolute; width: 250px"></asp:Label>
         <asp:Label ID="lblNextOfKinMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 347px; top: 997px; position: absolute; width: 250px"></asp:Label>
         <asp:Label ID="lblNextOfKinPhoneNoMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 346px; top: 1063px; position: absolute; width: 250px"></asp:Label>
-        <asp:Label ID="lblDateAdmittedMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 753px; top: 344px; position: absolute; width: 250px; height: 13px;"></asp:Label>
+        <asp:Label ID="lblDateAdmittedMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 761px; top: 343px; position: absolute; width: 246px; height: 13px;"></asp:Label>
         <asp:Label ID="lblDateDischargedMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 767px; top: 400px; position: absolute; width: 250px"></asp:Label>
         <asp:Label ID="lblLandlineNoMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 347px; top: 807px; position: absolute; width: 250px"></asp:Label>
         <asp:Label ID="lblGPDetailsMessage" runat="server" Font-Size="X-Small" ForeColor="Red" style="z-index: 1; left: 742px; top: 745px; position: absolute; width: 250px"></asp:Label>
@@ -28,9 +28,10 @@
 
         <asp:Label ID="lblAddOrEditPatientTitle" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" style="z-index: 1; left: 457px; top: 219px; position: absolute; width: 336px" Text="ADD OR EDIT PATIENT"></asp:Label>
         
-        <asp:Label ID="lblDateExample3" runat="server" Font-Bold="False" Font-Size="X-Small" ForeColor="Blue" style="z-index: 1; left: 664px; top: 437px; position: absolute; width: 104px" Text="Default is 1 jan 2117 i.e. not discharged yet"></asp:Label>
-        <asp:Label ID="lblDateExample2" runat="server" Font-Bold="False" Font-Size="X-Small" ForeColor="Blue" style="z-index: 1; left: 649px; top: 382px; position: absolute; width: 126px" Text="Default is Today's date"></asp:Label>
-        <asp:Label ID="lblDateExample1" runat="server" Font-Bold="False" Font-Size="X-Small" ForeColor="Blue" style="z-index: 1; left: 232px; top: 490px; position: absolute; width: 102px" Text="e.g. 01 jan 1985 "></asp:Label>
+        <asp:Label ID="lblDateExample3" runat="server" Font-Bold="False" Font-Size="X-Small" ForeColor="Blue" style="z-index: 1; left: 664px; top: 437px; position: absolute; width: 104px" Text="Default is 1 jan 2117 i.e. not yet discharged"></asp:Label>
+        <asp:Label ID="lblDateExample2" runat="server" Font-Bold="False" Font-Size="X-Small" ForeColor="Blue" style="z-index: 1; left: 648px; top: 350px; position: absolute; width: 126px" Text="Default is Today's date"></asp:Label>
+        <asp:Label ID="lblDateExample1" runat="server" Font-Bold="False" Font-Size="X-Small" ForeColor="Blue" style="z-index: 1; left: 232px; top: 490px; position: absolute; width: 102px; height: 13px;" Text="e.g. 01 jan 1985 "></asp:Label>
+        <asp:Label ID="lblDateExample4" runat="server" Font-Bold="False" Font-Size="X-Small" ForeColor="Blue" style="z-index: 1; left: 648px; top: 385px; position: absolute; width: 126px" Text="e.g. 2 jan 2017 13:14pm"></asp:Label>
         
         <asp:Label ID="lblPatientID" runat="server" Font-Bold="True" style="z-index: 1; left: 234px; top: 264px; position: absolute" Text="PatientID"></asp:Label>
         <asp:TextBox ID="txtPatientID" runat="server" ReadOnly="True" style="z-index: 1; left: 335px; top: 262px; position: absolute; width: 150px"></asp:TextBox>
@@ -92,6 +93,7 @@
              <asp:ListItem>Dementia</asp:ListItem>
              <asp:ListItem>Mental Breakdown</asp:ListItem>
              <asp:ListItem>Bipolar Disorder</asp:ListItem>
+             <asp:ListItem>Cerebral Palsy</asp:ListItem>
          </asp:DropDownList>
     
     

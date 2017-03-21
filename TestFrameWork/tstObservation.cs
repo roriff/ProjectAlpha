@@ -325,7 +325,7 @@ namespace TestFrameWork
         {
             clsObservation TestObservation = new clsObservation();
             string SomeBP = "";
-            string ExpectedReturnMsg = "";
+            string ExpectedReturnMsg = "Blood Pressure is missing";
             string BPErrorMsg = TestObservation.ValidateBloodPressure(SomeBP);
             Assert.AreEqual(BPErrorMsg, ExpectedReturnMsg);
         }
@@ -394,8 +394,6 @@ namespace TestFrameWork
             string BPErrorMsg = TestObservation.ValidateBloodPressure(SomeBP);
             Assert.AreEqual(BPErrorMsg, ExpectedReturnMsg);
         }
-
-
 
         /******** Testing for the pulse property of a patient's observation **********/
         [TestMethod]
@@ -510,7 +508,6 @@ namespace TestFrameWork
             string DateTimeTakenErrMsg = TestObservation.ValidateDateTimeTaken(SomeDateTimeTaken);
             Assert.AreEqual(DateTimeTakenErrMsg, ExpectedReturnMsg);
         }
-
 
         // Test the Max of DateTimeTaken being on the day the observation is done
         [TestMethod]

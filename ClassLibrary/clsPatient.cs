@@ -71,12 +71,8 @@ namespace ClassLibrary
         public Int32 WardNo { get { return wardNo; } set { wardNo = value; } }
         public Int32 TreatmentID { get { return treatmentID; } set { treatmentID = value; } }
 
-        
-
-
-
-
-        /**** Validation methoids for each attributes so when user enters data each 
+      
+        /**** Validation methods for each attribute so when user enters data each 
          attribute is tested individually *****/
 
         // Validate Title data entered
@@ -217,6 +213,7 @@ namespace ClassLibrary
             return TownErrMsg;
         }
 
+        // validate County
         public string ValidateCounty(string County)
         {
             string CountyErrMsg = "";
@@ -299,14 +296,14 @@ namespace ClassLibrary
                 // Now test the validity of a date saying the date can't be after today
                 // as a patient is admitted on the day or before today's date not in the future
                 // 1 jan 1934 < DateAdmitted < Today
-                if (tempDate > DateTime.Today)
+                if (tempDate > DateTime.Now)
                 {
                     // record an error
-                    DateAdmittedErrMsg = "DateAdmitted can't be after today in the future";
+                    DateAdmittedErrMsg = "DateAdmitted can't be after today or in the future";
                 }
                 /** and patient can't be admitted before 1 jan 1934 as it is too far back
-                    a remembering that a patient must be an adult of 18tears when admitted
-                    if the minimum date of birt is 1 jan 1916, so patient will be 18 in 1934
+                    a remembering that a patient must be an adult of 18years when admitted
+                    if the minimum date of birth is 1 jan 1916, so patient will be 18 in 1934
                 **/
                 else if (tempDate < DateTime.Parse("1 jan 1934"))
                 {
