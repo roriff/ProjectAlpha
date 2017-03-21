@@ -21,7 +21,7 @@ namespace ClassLibrary
         // create an instance of the data connection class called MyDatabase
         clsDataConnection MyDatabase = new clsDataConnection();
 
-
+        
         /* The Function PatientList to deal with the list of patients will be a property 
          as it only allows us to access data in the database without changing or manipulating 
          the data. it only has a get method as it only reads the data.... 
@@ -244,8 +244,7 @@ namespace ClassLibrary
                 **/
         public Int32 InsertPatient(clsPatient NewPatient)
         {
-
-            /// 
+ 
             // Add the paramters to the query for inserting the new patient properties into the DB
             MyDatabase.AddParameter("Title", NewPatient.Title);
             MyDatabase.AddParameter("FirstName", NewPatient.FirstName);
@@ -276,7 +275,7 @@ namespace ClassLibrary
             MyDatabase.AddParameter("TreatmentID", NewPatient.TreatmentID);
 
             //Execute the Insert procedure 
-            // bearing in mind that it always returns the PK value of any record so return needs to added in this function
+            // bearing in mind that it always returns the PK value @@Identity of any record so return needs to added in this function
 
             return MyDatabase.Execute("sproc_tblPatient_Insert");
         }
@@ -329,7 +328,7 @@ namespace ClassLibrary
             // Add the Primary Key PatientID to the query
             MyDatabase.AddParameter("PatientID", ExistingPatient.PatientID);
 
-            // Add the others paramters to the query
+            // Add the others parameters to the query
             MyDatabase.AddParameter("Title", ExistingPatient.Title);
             MyDatabase.AddParameter("FirstName", ExistingPatient.FirstName);
             MyDatabase.AddParameter("LastName", ExistingPatient.LastName);
@@ -364,7 +363,7 @@ namespace ClassLibrary
 
 
         ///This property finds a patient record based on the primary key value passed as a parameter
-        /// It returns an insance of clsPatient populated with the data if the record is found
+        /// It returns an instance of clsPatient populated with the data if the record is found
         /// If the record is not not found it returns a null value 
         public clsPatient FindPatient(Int32 PatientID)
         {
@@ -382,7 +381,7 @@ namespace ClassLibrary
                 clsPatient ThisPatientRecord = new clsPatient();
 
                 // Now let us  Copy this data record data from the database at index 0 since it is the only record
-                // and the obvious index is 0 for this record on a table
+                // since the obvious index is 0 for this record on a table as it is the only found record
                 ThisPatientRecord.PatientID = Convert.ToInt32(MyDatabase.DataTable.Rows[0]["PatientID"]);
                 ThisPatientRecord.Title = Convert.ToString(MyDatabase.DataTable.Rows[0]["Title"]);
                 ThisPatientRecord.FirstName = Convert.ToString(MyDatabase.DataTable.Rows[0]["FirstName"]);

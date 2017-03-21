@@ -141,7 +141,7 @@ namespace ClassLibrary
 
             if (BloodPressure.Length == 0)
             {
-                return BloodPressureErrMsg;
+                BloodPressureErrMsg = "Blood Pressure is missing";
             }
             else if (BloodPressure.Length > 10)
             {
@@ -165,6 +165,7 @@ namespace ClassLibrary
                 {
                     PulseErrMsg = "The Pulse can only be between 20 minimum to 180 max";
                 }
+
             }
             catch
             {
@@ -190,10 +191,10 @@ namespace ClassLibrary
 
                 
                 // 1 jan 1934 < Observation Date < Today
-                if (tempDate > DateTime.Today)
+                if (tempDate > DateTime.Now)
                 {
                     // record an error
-                    DateObservationErrMsg = "observation date can't be after today in the future";
+                    DateObservationErrMsg = "Observation date can't be after today or in the future";
                 }
                 
                 else if (tempDate < DateTime.Parse("1 jan 1934"))
