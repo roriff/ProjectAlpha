@@ -6,38 +6,49 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/mystyles.css">
+    <style type="text/css">
+        .auto-style1 {
+            height: 518px;
+        }
+        .auto-style3 {
+            width: 81px;
+            height: 33px;
+        }
+        .auto-style4 {
+            width: 113px;
+            height: 40px;
+        }
+    </style>
 </head>
 <body>
-    <form id="loginform" runat="server">
-    <div>
-    <table>
-        <tr>
-            <td>
-            <h1>Login</h1>
-            </td>
-        </tr>
-    </table>
-    </div>
-    <table>
-        <tr>
-            <td>
+    <form id="loginform" runat="server" class="auto-style1">
+            <h1 class="auto-style4">Login</h1>
+            <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
             Username:
-            </td>
-            <td>
+
             <asp:TextBox ID="Username" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>
+ 
+            <br />
+        <br />
+        <br />
+ 
             Password:
-            </td>
-            <td>
+
             <asp:TextBox ID="Password" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-    </table>
-    <button>Go</button>
-    <button>Reset</button>
+
+        <br />
+        <br />
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="auto-style3">Go</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="auto-style3">Reset</button>
     </form>
 </body>
 </html>
