@@ -3,6 +3,11 @@
 <head>
     <title>Main Menu</title>
 	<meta charset="utf-8" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 256px;
+        }
+    </style>
 </head>
 <body>
     <form id="AddFood" runat="server">
@@ -10,7 +15,7 @@
         <table>
             <tr>
                 <td><img src="images/logo.jpg" alt="logo" style="width:200px; height:170px;"></td>
-                <td>
+                <td class="auto-style1">
                     <h1>Add Food</h1>
                 </td>
             </tr> 
