@@ -54,8 +54,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RFrontEnd", "RFrontEnd\", "
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Data", "App_Data", "{1DFAE94B-55EF-4C3C-8963-C98956AB2E1A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareObs_BackEnd", "H:\ProjectAlphaRoger\CareObs_BackEnd\CareObs_BackEnd.csproj", "{55EC52F3-B8A9-4CD6-AFA9-130194B7D065}"
 EndProject
 Global
