@@ -16,5 +16,10 @@ namespace RBackOffice
         {
             InitializeComponent();
         }
+
+        private void frmFoodPayment_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
