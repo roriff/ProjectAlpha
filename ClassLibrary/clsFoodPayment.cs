@@ -6,14 +6,14 @@ namespace ClassLibrary
     {
         public string FoodOrdering { get; set; }
         public string FoodPayment { get; set; }
-        public string FoodPaymentAccountNumber { get; set; }
-        public string FoodPaymentCardNumber { get; set; }
-        public string FoodPaymentCardVerificationCode { get; set; }
-        public string FoodPaymentExpiryDate { get; set; }
-        public int FoodPaymentID { get; set; }
-        public string FoodPaymentNameOnCard { get; set; }
-        public string FoodPaymentSortCode { get; set; }
-        public string FoodPaymentStaffID { get; set; }
+        public string AccountNumber { get; set; }
+        public string CardNumber { get; set; }
+        public string CardVerificationCode { get; set; }
+        public string ExpiryDate { get; set; }
+        public int PaymentID { get; set; }
+        public string NameOnCard { get; set; }
+        public string SortCode { get; set; }
+        public string StaffID { get; set; }
 
         public bool Valid(string SomeFoodPayment)
         {

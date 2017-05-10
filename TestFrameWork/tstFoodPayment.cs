@@ -36,9 +36,9 @@ namespace TestFrameWork
             //create some test data to assign to the property
             Int32 TestData = 21;
             //assign the data to the property
-            AFoodPayment.FoodPaymentID = TestData;
+            AFoodPayment.PaymentID = TestData;
             //test to see the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentID, TestData);
+            Assert.AreEqual(AFoodPayment.PaymentID, TestData);
         }
 
         [TestMethod]
@@ -48,9 +48,9 @@ namespace TestFrameWork
             clsFoodPayment AFoodPayment = new clsFoodPayment();
             //create some test data to assign to the property
             string SomeFoodPayment = "5151516561356565";
-            AFoodPayment.FoodPaymentCardNumber = SomeFoodPayment;
+            AFoodPayment.CardNumber = SomeFoodPayment;
             //test to see if the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentCardNumber, SomeFoodPayment);
+            Assert.AreEqual(AFoodPayment.CardNumber, SomeFoodPayment);
         }
 
         [TestMethod]
@@ -60,9 +60,9 @@ namespace TestFrameWork
             clsFoodPayment AFoodPayment = new clsFoodPayment();
             //create some test data to assign to the property
             string SomeFoodPayment = "565";
-            AFoodPayment.FoodPaymentCardVerificationCode = SomeFoodPayment;
+            AFoodPayment.CardVerificationCode = SomeFoodPayment;
             //test to see if the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentCardVerificationCode, SomeFoodPayment);
+            Assert.AreEqual(AFoodPayment.CardVerificationCode, SomeFoodPayment);
         }
 
         [TestMethod]
@@ -72,9 +72,9 @@ namespace TestFrameWork
             clsFoodPayment AFoodPayment = new clsFoodPayment();
             //create some test data to assign to the property
             string SomeFoodPayment = "";
-            AFoodPayment.FoodPaymentAccountNumber = SomeFoodPayment;
+            AFoodPayment.AccountNumber = SomeFoodPayment;
             //test to see if the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentAccountNumber, SomeFoodPayment);
+            Assert.AreEqual(AFoodPayment.AccountNumber, SomeFoodPayment);
         }
 
         [TestMethod]
@@ -84,9 +84,9 @@ namespace TestFrameWork
             clsFoodPayment AFoodPayment = new clsFoodPayment();
             //create some test data to assign to the property
             string SomeFoodPayment = "MR V R THOMAS";
-            AFoodPayment.FoodPaymentNameOnCard = SomeFoodPayment;
+            AFoodPayment.NameOnCard = SomeFoodPayment;
             //test to see if the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentNameOnCard, SomeFoodPayment);
+            Assert.AreEqual(AFoodPayment.NameOnCard, SomeFoodPayment);
         }
 
         [TestMethod]
@@ -96,9 +96,9 @@ namespace TestFrameWork
             clsFoodPayment AFoodPayment = new clsFoodPayment();
             //create some test data to assign to the property
             string SomeFoodPayment = "MR V R THOMAS";
-            AFoodPayment.FoodPaymentExpiryDate = SomeFoodPayment;
+            AFoodPayment.ExpiryDate = SomeFoodPayment;
             //test to see if the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentExpiryDate, SomeFoodPayment);
+            Assert.AreEqual(AFoodPayment.ExpiryDate, SomeFoodPayment);
         }
 
         [TestMethod]
@@ -108,9 +108,9 @@ namespace TestFrameWork
             clsFoodPayment AFoodPayment = new clsFoodPayment();
             //create some test data to assign to the property
             string SomeFoodPayment = "MR V R THOMAS";
-            AFoodPayment.FoodPaymentSortCode = SomeFoodPayment;
+            AFoodPayment.SortCode = SomeFoodPayment;
             //test to see if the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentSortCode, SomeFoodPayment);
+            Assert.AreEqual(AFoodPayment.SortCode, SomeFoodPayment);
         }
 
         [TestMethod]
@@ -120,9 +120,9 @@ namespace TestFrameWork
             clsFoodPayment AFoodPayment = new clsFoodPayment();
             //create some test data to assign to the property
             string SomeFoodPayment = "MR V R THOMAS";
-            AFoodPayment.FoodPaymentStaffID = SomeFoodPayment;
+            AFoodPayment.StaffID = SomeFoodPayment;
             //test to see if the two values are the same
-            Assert.AreEqual(AFoodPayment.FoodPaymentStaffID, SomeFoodPayment);
+            Assert.AreEqual(AFoodPayment.StaffID, SomeFoodPayment);
         }
 
         [TestMethod]
