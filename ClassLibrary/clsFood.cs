@@ -28,6 +28,7 @@ namespace Class_Library
                 //return true
                 return true;
             }
+            else
             //otherwise return false
             {
                 //return false

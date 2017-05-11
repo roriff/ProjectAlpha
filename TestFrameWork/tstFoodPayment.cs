@@ -139,5 +139,96 @@ namespace TestFrameWork
             //test to see that the result is correct
             Assert.IsTrue(OK);
         }
+
+        [TestMethod]
+        public void FoodPaymentMinLessOne()
+        {
+            //create an instance of the class we want to create
+            clsFoodPayment AFoodPayment = new clsFoodPayment();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFoodPayment = "Steak";
+            //invoke the method
+            OK = AFoodPayment.Valid(SomeFoodPayment);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodPaymentMinBoundaryOK()
+        {
+            //create an instance of the class we want to create
+            clsFoodPayment AFoodPayment = new clsFoodPayment();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFoodPayment = "a";
+            //invoke the method
+            OK = AFoodPayment.Valid(SomeFoodPayment);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodPaymentMinPlusOne()
+        {
+            //create an instance of the class we want to create
+            clsFoodPayment AFoodPayment = new clsFoodPayment();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFoodPayment = "aa";
+            //invoke the method
+            OK = AFoodPayment.Valid(SomeFoodPayment);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodPaymentMaxLessOne()
+        {
+            //create an instance of the class we want to create
+            clsFoodPayment AFoodPayment = new clsFoodPayment();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFoodPayment = "abcdefghijabcdefghijabcdefghijabcdefghij";
+            //invoke the method
+            OK = AFoodPayment.Valid(SomeFoodPayment);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodPaymentMaxBoundary()
+        {
+            //create an instance of the class we want to create
+            clsFoodPayment AFoodPayment = new clsFoodPayment();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFoodPayment = "abcdefghijabcdefghijabcdefghijabcdefghij";
+            //invoke the method
+            OK = AFoodPayment.Valid(SomeFoodPayment);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodPaymentMaxPlusOne()
+        {
+            //create an instance of the class we want to create
+            clsFoodPayment AFoodPayment = new clsFoodPayment();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFoodPayment = "abcdefghijabcdefghijabcdefghijabcdefghij";
+            //invoke the method
+            OK = AFoodPayment.Valid(SomeFoodPayment);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
     }
 }

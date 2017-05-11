@@ -95,6 +95,94 @@ namespace Test_Framework
             Assert.IsTrue(OK);
         }
 
+        [TestMethod]
+        public void FoodMinLessOne()
+        {
+            //create an instance of the class we want to create
+            clsFood AFood = new clsFood();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFood = "AA";
+            //invoke the method
+            OK = AFood.Valid(SomeFood);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
 
+        [TestMethod]
+        public void FoodMinBoundary()
+        {
+            //create an instance of the class we want to create
+            clsFood AFood = new clsFood();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFood = "a";
+            //invoke the method
+            OK = AFood.Valid(SomeFood);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodMinPlusOne()
+        {
+            //create an instance of the class we want to create
+            clsFood AFood = new clsFood();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFood = "aa";
+            //invoke the method
+            OK = AFood.Valid(SomeFood);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodMaxLessOne()
+        {
+            //create an instance of the class we want to create
+            clsFood AFood = new clsFood();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFood = "abcdefghijabcdefghijabcdefghijabcdefghij";
+            //invoke the method
+            OK = AFood.Valid(SomeFood);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodMaxBoundary()
+        {
+            //create an instance of the class we want to create
+            clsFood AFood = new clsFood();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFood = "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij";
+            //invoke the method
+            OK = AFood.Valid(SomeFood);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
+
+        [TestMethod]
+        public void FoodMaxPlusOne()
+        {
+            //create an instance of the class we want to create
+            clsFood AFood = new clsFood();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to asisgn to the property
+            string SomeFood = "abcdefghijabcdefghijabcdefghijabcdefghi";
+            //invoke the method
+            OK = AFood.Valid(SomeFood);
+            //test to see that the result is correct
+            Assert.IsTrue(OK);
+        }
     }
 }

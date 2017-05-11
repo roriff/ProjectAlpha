@@ -56,8 +56,12 @@
     <Compile Include="tstFood.cs" />
     <Compile Include="tstFoodCollection.cs" />
     <Compile Include="tstFoodOrdering.cs" />
+    <Compile Include="tstFoodOrderingCollection.cs" />
     <Compile Include="tstFoodPayment.cs" />
+    <Compile Include="tstFoodPaymentCollection.cs" />
+    <Compile Include="tstFoodStaffCollection.cs" />
     <Compile Include="tstFoodSupplier.cs" />
+    <Compile Include="tstFoodSupplierCollection.cs" />
     <Compile Include="tstObservation.cs" />
     <Compile Include="tstObservationCollection.cs" />
     <Compile Include="tstPatientCollection.cs" />
