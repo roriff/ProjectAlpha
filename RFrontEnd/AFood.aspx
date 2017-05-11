@@ -1,4 +1,7 @@
 ﻿<!DOCTYPE html>
+<script runat="server">
+</script>
+
 <html>
 <head>
     <title>Main Menu</title>
@@ -44,8 +47,15 @@
             <br />
             <br />
         </div>
-        <button style="height: 32px; width: 73px">Add</button>
-        <button style="height: 32px; width: 73px"">Reset</button>
+        <nav>
+        <asp:Button ID="btnAddFood" class="buttonNav" runat="server" style="z-index: 1; left: 20px; top: 286px; width: 145px;" Text="Add Food" OnClick="btnAddFood_Click" />
+        <asp:Button ID="btnEditFood" class="buttonNav" runat="server" style="z-index: 1; left: 19px; top: 352px; width: 145px" Text="Edit Food" OnClick="btnEditFood_Click" />
+        <asp:Button ID="btnArchiveFood" class="buttonNav" runat="server" style="z-index: 1; left: 18px; top: 420px; width: 145px" Text="Archive Food" OnClick="btnArchiveFood_Click" />
+        <asp:Button ID="btnReset" class="buttonNav" runat="server" OnClick="btnReset_Click" style="z-index: 1; left: 18px; top: 487px; width: 145px" Text="Reset" />
+        </nav>
+        <asp:ListBox ID="lstFood" runat="server" Height="257px" Width="645px"></asp:ListBox>
+        <asp:GridView ID="FoodDataGridView" runat="server" Height="257px" Width="645px" DataSourceID="SqlDataSource1"></asp:GridView>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
         </center>
     </form>
 </body>
