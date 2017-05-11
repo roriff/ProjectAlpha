@@ -23,16 +23,24 @@
     </center>
         <center>
         <div>
-        <asp:Label runat="server" Text="Search By Food"></asp:Label>
+        <asp:Label runat="server" Text="FoodName"></asp:Label>
+        <br />
+            <asp:TextBox ID="FoodID" runat="server"></asp:TextBox>
+            <br />
+        <br />
+        <asp:Label runat="server" Text="FoodName"></asp:Label>
         <br />
             <asp:TextBox ID="FoodName" runat="server"></asp:TextBox>
             <br />
         <br />
-        <asp:Label runat="server" Text="Search By Food Price"></asp:Label>
-        <br />
+        <asp:Label runat="server" Text="FoodPrice"></asp:Label>
+            <br />
             <asp:TextBox ID="FoodPrice" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Label runat="server" Text="Quantity"></asp:Label>
             <br />
-            <br />
+            <asp:TextBox ID="Quantity" runat="server"></asp:TextBox>
             <br />
             <br />
         </div>
