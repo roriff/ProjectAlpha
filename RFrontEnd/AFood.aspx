@@ -47,7 +47,6 @@
         </nav>
         <asp:ListBox ID="lstFood" runat="server" Height="257px" Width="645px"></asp:ListBox>
         <asp:GridView ID="FoodDataGridView" runat="server" Height="257px" Width="645px" DataSourceID="SqlDataSource1"></asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
         </center>
     </form>
 </body>
