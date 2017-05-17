@@ -8,12 +8,36 @@ namespace Class_Library
     public class clsFoodOrdering
     {
         //private data member for the FoodID property
-        private Int32 foodOrderingId;
+        private Int32 foodOrderingID;
         //private data member for the FoodID property
-        private string restaurantID;
+        private Int32 restaurantID;
 
-            public int FoodOrderingID { get; set; }
-            public int RestaurantID { get; set; }
+            public int FoodOrderingID
+        {
+            get
+            {
+                //return the private data
+                return foodOrderingID;
+            }
+            set
+            {
+                //set the value of the private data member
+                foodOrderingID = value;
+            }
+        }
+        public int RestaurantID
+        {
+            get
+            {
+                //return the private data
+                return restaurantID;
+            }
+            set
+            {
+                //set the value of the private data member
+                restaurantID = value;
+            }
+        }
 
         public bool Valid(string SomeFoodOrdering)
         {

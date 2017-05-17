@@ -43,6 +43,7 @@
     <Compile Include="clsFood.cs" />
     <Compile Include="clsFoodCollection.cs" />
     <Compile Include="clsFoodOrdering.cs" />
+    <Compile Include="clsFoodOrderingCollection.cs" />
     <Compile Include="clsFoodPayment.cs" />
     <Compile Include="clsFoodPaymentCollection.cs" />
     <Compile Include="clsFoodSupplier.cs" />
