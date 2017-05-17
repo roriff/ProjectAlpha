@@ -101,6 +101,9 @@
     <EmbeddedResource Include="frmFoodSupplier.resx">
       <DependentUpon>frmFoodSupplier.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mdiFoodParent.resx">
       <DependentUpon>mdiFoodParent.cs</DependentUpon>
     </EmbeddedResource>
