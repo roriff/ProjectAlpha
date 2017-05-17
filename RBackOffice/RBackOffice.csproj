@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlphaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlphaDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmFood.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,10 +81,28 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="mdiFoodParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiFoodParent.Designer.cs">
+      <DependentUpon>mdiFoodParent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmFood.resx">
+      <DependentUpon>frmFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFoodOrdering.resx">
+      <DependentUpon>frmFoodOrdering.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFoodPayment.resx">
       <DependentUpon>frmFoodPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFoodSupplier.resx">
+      <DependentUpon>frmFoodSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdiFoodParent.resx">
+      <DependentUpon>mdiFoodParent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,6 +113,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="AlphaDataSet.xsc">
+      <DependentUpon>AlphaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AlphaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AlphaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AlphaDataSet.xss">
+      <DependentUpon>AlphaDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

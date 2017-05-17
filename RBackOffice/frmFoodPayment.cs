@@ -19,6 +19,16 @@ namespace RBackOffice
 
         private void frmFoodPayment_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'alphaDataSet.tblPaymentFood' table. You can move, or remove it, as needed.
+            this.tblPaymentFoodTableAdapter.Fill(this.alphaDataSet.tblPaymentFood);
+
+        }
+
+        private void tblPaymentFoodBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tblPaymentFoodBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.alphaDataSet);
 
         }
     }

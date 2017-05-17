@@ -44,7 +44,9 @@
     <Compile Include="clsFoodCollection.cs" />
     <Compile Include="clsFoodOrdering.cs" />
     <Compile Include="clsFoodPayment.cs" />
+    <Compile Include="clsFoodPaymentCollection.cs" />
     <Compile Include="clsFoodSupplier.cs" />
+    <Compile Include="clsFoodSupplierCollection.cs" />
     <Compile Include="clsObservationCollection.cs" />
     <Compile Include="clsDataConnection.cs" />
     <Compile Include="clsObservation.cs" />

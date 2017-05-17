@@ -56,7 +56,6 @@
     <Compile Include="tstFood.cs" />
     <Compile Include="tstFoodCollection.cs" />
     <Compile Include="tstFoodOrdering.cs" />
-    <Compile Include="tstFoodOrderingCollection.cs" />
     <Compile Include="tstFoodPayment.cs" />
     <Compile Include="tstFoodPaymentCollection.cs" />
     <Compile Include="tstFoodStaffCollection.cs" />

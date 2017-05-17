@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ClassLibrary;
 
 namespace TestFrameWork
 {
-    class tstFoodSupplierCollection
+    [TestClass]
+    public class tstFoodSupplierCollection
     {
+        [TestMethod]
+        public void InstancePatientCollectionOK()
+        {
+            //create an instance of the class we want to create
+            clsFoodSupplierCollection TestPatientCollection = new clsFoodSupplierCollection();
+            //test to see that the instance actually exists
+            Assert.IsNotNull(TestPatientCollection);
+        }
     }
 }

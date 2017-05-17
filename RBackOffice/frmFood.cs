@@ -16,5 +16,20 @@ namespace RBackOffice
         {
             InitializeComponent();
         }
+
+        private void tblFoodBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tblFoodBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.alphaDataSet);
+
+        }
+
+        private void frmFood_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'alphaDataSet.tblFood' table. You can move, or remove it, as needed.
+            this.tblFoodTableAdapter.Fill(this.alphaDataSet.tblFood);
+
+        }
     }
 }
